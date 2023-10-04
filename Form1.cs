@@ -203,5 +203,7 @@ namespace WindowsFormsApp0927
                 MessageBox.Show("執行時發生錯誤: " + ex.Message);
             }
         }
+
+   
     }
 }

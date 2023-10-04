@@ -44,13 +44,15 @@ namespace WindowsFormsApp0927
             this.numDelay = new System.Windows.Forms.NumericUpDown();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.tabControl1_SelectedIndexChanged = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             ((System.ComponentModel.ISupportInitialize)(this.numTimes)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numDelay)).BeginInit();
             this.SuspendLayout();
             // 
             // btnSelectIpmitool
             // 
-            this.btnSelectIpmitool.Location = new System.Drawing.Point(29, 30);
+            this.btnSelectIpmitool.Location = new System.Drawing.Point(29, 86);
             this.btnSelectIpmitool.Name = "btnSelectIpmitool";
             this.btnSelectIpmitool.Size = new System.Drawing.Size(117, 47);
             this.btnSelectIpmitool.TabIndex = 0;
@@ -70,7 +72,7 @@ namespace WindowsFormsApp0927
             // 
             // txtIpmitoolPath
             // 
-            this.txtIpmitoolPath.Location = new System.Drawing.Point(166, 44);
+            this.txtIpmitoolPath.Location = new System.Drawing.Point(166, 86);
             this.txtIpmitoolPath.Name = "txtIpmitoolPath";
             this.txtIpmitoolPath.Size = new System.Drawing.Size(415, 22);
             this.txtIpmitoolPath.TabIndex = 2;
@@ -179,6 +181,7 @@ namespace WindowsFormsApp0927
             this.label5.Size = new System.Drawing.Size(72, 16);
             this.label5.TabIndex = 61;
             this.label5.Text = "延遲幾秒";
+
             // 
             // Form1
             // 
@@ -226,6 +229,8 @@ namespace WindowsFormsApp0927
         private System.Windows.Forms.NumericUpDown numDelay;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TabPage tabControl1_SelectedIndexChanged;
+        private System.Windows.Forms.TabPage tabPage2;
     }
 }
 
